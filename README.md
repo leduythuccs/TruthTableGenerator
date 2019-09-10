@@ -1,5 +1,5 @@
 # Truth Table Generator
-This python code is auto generate truth table of  a Logical Epression (LE), such as (a v b) ^ (c v d). 
+This python code is auto generate truth table of  a Logical Epression (LE), such as (p v (p ^ q)) ^ !p -> r. 
 
 >(Vietnamese in [README-vi.md](README-vi.md))
 
@@ -24,7 +24,8 @@ Download [TruthTableGenerator.py](TruthTableGenerator.py) and run by command `py
 You can use lower letter to represent variables, but don't use 'v' as variable, because it is an operator in my code. Therefore, you can use at most 25 variables.
 
 # Example
-My epression is: (p v (p ^ q)) ^ !p -> r
+My epression is: (p v (p ^ q)) ^ !p -> r.
+
 This is the generated truth table:
 ```
   p  |  q  |  r  |  (p v (p ^ q)) ^ !p -> r
