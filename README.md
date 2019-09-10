@@ -6,14 +6,14 @@ This python code is auto generate truth table of  a Logical Epression (LE), such
 # Supported Operations
 
 My code supports 5 operators: 
-- NOT: denoted as '!' or '-'. 
-- AND: denoted as '^' or '.'.
-- OR: denoted as 'v' or '+'.
-- Material Implication`: denoted as '->' or '>' .
-- equivalence: denoted as '<->' or '~'.
+- NOT: denoted as '!' or '-' . 
+- AND: denoted as '^' or '.' .
+- OR: denoted as 'v' or '+' .
+- Material Implication: denoted as '->' or '>' .
+- equivalence: denoted as '<->' or '~' .
 
 **Order of operations**: NOT > AND = OR > Material Implication = Equivalence
-- The NOT operators will calculate first (highest priority)
+- The NOT operators will calculate first (highest priority).
 - Then, the AND and OR operators.
 - Last, the Material Implication and equivalence (lowest priority).
 - It will calculate from left to right if 2 operators have the same order.
