@@ -9,13 +9,13 @@ My code supports 5 operators:
 - NOT: denoted as '!' or '-'. 
 - AND: denoted as '^' or '.'.
 - OR: denoted as 'v' or '+'.
-- material implication: denoted as '->' or '>' .
+- Material Implication`: denoted as '->' or '>' .
 - equivalence: denoted as '<->' or '~'.
 
-**Order of operations**: NOT > AND = OR > material implication = equivalence
+**Order of operations**: NOT > AND = OR > Material Implication = Equivalence
 - The NOT operators will calculate first (highest priority)
-- Then, The AND and OR operators.
-- Last, The material implication and equivalence (lowest priority).
+- Then, the AND and OR operators.
+- Last, the Material Implication and equivalence (lowest priority).
 - It will calculate from left to right if 2 operators have the same order.
 
 # How to use
