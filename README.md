@@ -21,7 +21,7 @@ My code supports 5 operators:
 # How to use
 Download [TruthTableGenerator.py](TruthTableGenerator.py) and run by command `python TruthTableGenerator.py`, then enter your logical epression, it will output a Truth Table of your LE.
 
-You can use lower letter to represent variables, but don't use 'v' as variable, because it is an operator in my code. Therefore, you can use at most 25 variables.
+You can use lower letter to represent variables, but don't use 'v' as variable, because it is an operator in my code. Therefore, you can use at most 25 variables. But my time complexity is about O(2^n) with a ton of constants, so you shouldn't use too much variables, less than 15 variables is okay. 
 
 # Example
 My epression is: (p v (p ^ q)) ^ !p -> r.
