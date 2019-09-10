@@ -17,7 +17,7 @@ class myStack:
         return res
 
 def Priority(c : str): 
-    """return priority of operator"""
+    """return priority order of operator"""
     if (c == '('):
         return 0
     elif (c == '>' or c == '~'):
@@ -107,7 +107,6 @@ def Calculate(RPN : myStack, VariableValue: dict):
     assert(res.size() == 1)
     return res.pop()
 
-# Write generated truth table to console
 def WriteToConsole(result : list):
     for row in result:
         tmp = row.pop()
@@ -116,7 +115,6 @@ def WriteToConsole(result : list):
         print("  ", tmp, sep = '')
         row.append(tmp)
 
-# Write generated truth table to csv file
 def WriteToFile(result : list):
     csvFile = open('res.csv','w')
     writer = csv.writer(csvFile)
@@ -125,13 +123,12 @@ def WriteToFile(result : list):
 
 def Solve(expression : str):
     result = []
-    # first line of result
+
     ListVariable = GetVariable(expression)
     ListVariable.append(expression)
     result.append(ListVariable.copy())
     ListVariable.pop()
 
-    #main 
     expression = preprocess(expression)
     RPN = GetRPN(expression)
     n = len(ListVariable)
