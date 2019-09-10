@@ -5,11 +5,11 @@ Code này giúp sinh ra bảng chân trị của một biểu thức Logic, ví 
 # Một số phép toán
 
 Trong code này, mình có xử lý tổng cộng 5 phép toán sau đây: 
-- Phép NOT, còn gọi là phép phủ định:  viết bằng '!' hoặc '-'. 
-- Phép AND, còn gọi là phép hội, phép nối liền: viết bằng '^' hoặc '.'.
-- Phép OR, còn gọi là phép tuyển, phép nối rời: viết bằng 'v' hoặc '+'.
+- Phép NOT, còn gọi là phép phủ định:  viết bằng '!' hoặc '-' .
+- Phép AND, còn gọi là phép hội, phép nối liền: viết bằng '^' hoặc '.' .
+- Phép OR, còn gọi là phép tuyển, phép nối rời: viết bằng 'v' hoặc '+' .
 - Phép kéo theo: viết bằng '->' hoặc '>' .
-- Phép tương đương: viết bằng '<->' or '~'.
+- Phép tương đương: viết bằng '<->' or '~' .
 
 **Thứ tự tính toán**: NOT > AND = OR > kéo theo = tương đương.
 - Phép NOT sẽ được tính đầu tiên (thứ tự tính cao nhất)
