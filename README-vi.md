@@ -20,7 +20,7 @@ Trong code này, mình có xử lý tổng cộng 5 phép toán sau đây:
 # Cách dùng
 Tải file [TruthTableGenerator.py](TruthTableGenerator.py) và chạy với lệnh `python TruthTableGenerator.py`, sau đó nhập biểu thức logic vào, chương trình sẽ đưa ra bảng trân trị của biểu thức đó.
 
-Dùng các ký tự lattin thường để biểu diễn các biến, nhưng đừng xử dụng ký tự 'v', vì trong code của mình 'v' là một phép tính (phép OR). Vì vậy, có thể sử dụng nhiều nhất là 25 biến trong biểu thức.
+Dùng các ký tự lattin thường để biểu diễn các biến, nhưng đừng xử dụng ký tự 'v', vì trong code của mình 'v' là một phép tính (phép OR). Vì vậy, có thể sử dụng nhiều nhất là 25 biến trong biểu thức. Dù vậy, độ phức tạp của code mình rơi vào khoảng O(2^n) với n là số biến, cùng với hằng số lập trình rất lớn, do đó tốt nhất đừng dùng quá nhiều biến, nhỏ hơn 15 biến thì nó vẫn chạy dưới 1s được. 
 
 # Ví dụ
 Có biểu thức là: (p v (p ^ q)) ^ !p -> r.
